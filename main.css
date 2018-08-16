@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Jua|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Jua|Pacifico|Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Righteous|Sacramento|Jura|Sorts+Mill+Goudy|Bad+Script');
 *{
@@ -46,14 +46,14 @@ img{
     color:white;
     font-size: 2rem;
     
-    font-family:'Pacifico',cursive;
+    font-family:''Pacifico'',cursive;
 }
 
 .navbar-light .navbar-nav .nav-link{
     color:white;
     font-size: 1.2rem;
     text-transform: uppercase;
-    font-family:'Pacifico',cursive;
+    font-family:'Ubuntu',cursive;
 }
 
 
@@ -61,7 +61,7 @@ img{
     color:burlywood;
     font-size: 1.2rem;
     text-transform: uppercase;
-    font-family:'Pacifico',cursive;
+    font-family:'Ubuntu',cursive;
 }
 
 
@@ -126,10 +126,8 @@ background-color:rgb(27, 27, 235);
 #projects{
     display: flex;
     align-items: center;
-   
-}
 
-#projects > .container{padding: 2px 16px;}
+}
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -138,7 +136,8 @@ background-color:rgb(27, 27, 235);
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 20px 8px 16px 0 rgba(0,0,0,0.2);
+  
 }
 
   
@@ -238,13 +237,13 @@ background-color:rgb(27, 27, 235);
     color: orange;
   }
 
-.zoom{
+/* .zoom{
     transition: transform .4s;
 }
   /*anim*/
-.zoom:hover{
+/*.zoom:hover{
     transform: scale(1.5);
-}
+} */ */
 
 .name{
     font-family: 'Jua', sans-serif;
